@@ -1,0 +1,66 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    min-width: 280px;
+    max-width: 400px;
+    background: #f0f0f0;
+  }
+  
+  .popup-container {
+    padding: 16px;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+  
+  .button-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .button-row button {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background: #6200ee;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .button-row button:hover {
+    background: #5a00d1;
+  }
+  
+  .result-area {
+    background: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+  }
+  
+  .summary p {
+    margin: 4px 0;
+  }
+  
+  .details {
+    margin-top: 8px;
+  }
+  
+  .details pre {
+    background: #eee;
+    padding: 8px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
